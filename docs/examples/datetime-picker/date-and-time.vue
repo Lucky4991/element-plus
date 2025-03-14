@@ -5,6 +5,8 @@
       <el-date-picker
         v-model="value1"
         type="datetime"
+        format="YYYY年MM月DD日 HH:mm" 
+        value-format="YYYY年MM月DD日 HH:mm"
         placeholder="Select date and time"
       />
     </div>
